@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Result</title>
+</head>
+<body>
+    <h1>Diabetes Prediction Result</h1>
+    
+    {% if prediction_text == 1 %}
+        <p>You are affected by a diabetic disease.</p>
+    {% else %}
+        <p>You are not affected by a diabetic disease.</p>
+    {% endif %}
+</body>
+</html>
